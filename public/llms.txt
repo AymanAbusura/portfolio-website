@@ -1,0 +1,22 @@
+# Ayman Abusura
+
+> Full-Stack Developer specializing in modern web applications, scalable backend systems, Telegram bots, and Telegram Mini Apps, built with React, Node.js, and related technologies.
+
+Ayman Abusura is a Full-Stack Developer with experience across frontend, backend, and Telegram bot/Mini App development. This site is a personal portfolio showcasing his background, technical skills, and project work.
+
+## Site
+
+- [Homepage](https://aymanabusura.vercel.app/): Overview, skills, experience, and contact information.
+- [Sitemap](https://aymanabusura.vercel.app/sitemap.xml): Full list of indexed pages.
+
+## Contact
+
+- [LinkedIn](https://www.linkedin.com/in/aymanAbusura)
+- [GitHub](https://github.com/AymanAbusura)
+- [Telegram](https://t.me/ayman_abusura96)
+- [Habr Career](https://career.habr.com/aymanabusura)
+
+## Notes
+
+- This site is a single-page application; all content is rendered client-side from the homepage.
+- For structured data about Ayman, see the Person schema embedded in the homepage `<head>`.
