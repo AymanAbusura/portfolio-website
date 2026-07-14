@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { ArrowUp } from "lucide-react";
 
 const Top = () => {
   const [showBtn, setShowBtn] = useState(false);
@@ -32,7 +33,8 @@ const Top = () => {
         position: "fixed",
         bottom: "20px",
         right: "20px",
-        padding: "10px",
+        width: "45px",
+        height: "45px",
         borderRadius: "50%",
         backgroundColor: "#14171F",
         color: "#fff",
@@ -43,24 +45,10 @@ const Top = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        padding: 0,
       }}
     >
-      <svg
-        baseProfile="tiny"
-        height="32px"
-        width="32px"
-        version="1.2"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlSpace="preserve"
-        aria-hidden="true"
-        fill="currentColor"
-      >
-        <g id="Layer_1">
-          <path d="M13,5.586l-4.707,4.707c-0.391,0.391-0.391,1.023,0,1.414s1.023,0.391,1.414,0L12,9.414V17c0,0.552,0.447,1,1,1
-              s1-0.448,1-1V9.414l2.293,2.293C16.488,11.902,16.744,12,17,12s0.512-0.098,0.707-0.293c0.391-0.391,0.391-1.023,0-1.414L13,5.586z"/>
-        </g>
-      </svg>
+      <ArrowUp size={24} strokeWidth={2} />
     </button>
   );
 };
