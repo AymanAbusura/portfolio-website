@@ -1,0 +1,78 @@
+/* eslint-disable react-refresh/only-export-components */
+/* eslint-disable react/prop-types */
+
+import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
+import { LazyMotion, domAnimation, m } from "framer-motion";
+
+import "react-vertical-timeline-component/style.min.css";
+
+import { styles } from "../styles";
+import { getCertifications } from "../constants/index-translated";
+import { SectionWrapper } from "../hoc";
+import { textVariant } from "../utils/motion";
+
+import { useTranslation } from 'react-i18next';
+
+const CertificationCard = ({ certification }) => {
+  return (
+    <VerticalTimelineElement
+      contentStyle={{
+        background: "#FFFFFF",
+        color: "#14171F",
+        border: "1px solid #D8DCE3",
+        boxShadow: "0px 10px 40px -12px rgba(20,23,31,0.10)",
+        cursor: "auto",
+        borderRadius: "14px",
+      }}
+      contentArrowStyle={{ borderRight: "7px solid #FFFFFF" }}
+      date={certification.date}
+      iconStyle={{ background: certification.iconBg }}
+      icon={
+        <div className='flex justify-center items-center w-full h-full'>
+          <img
+            src={certification.icon}
+            alt={certification.company_name}
+            className='w-[60%] h-[60%] object-contain'
+            loading="lazy"
+          />
+        </div>
+      }
+    >
+      <div>
+        <h3 className='text-ink font-display text-[20px] font-semibold'>{certification.title}</h3>
+        <p className='text-secondary text-[16px] font-semibold' style={{ margin: 0 }}>
+          {certification.company_name}
+        </p>
+      </div>
+    </VerticalTimelineElement>
+  );
+};
+
+const Certification = () => {
+  const { t } = useTranslation();
+  const translatedProjects = getCertifications(t);
+
+  return (
+    <LazyMotion features={domAnimation}>
+      <>
+        <m.div variants={textVariant()}>
+          <p className={styles.sectionSubText}>{t("certification.header1")}</p>
+          <h2 className={styles.sectionHeadText}>{t("certification.header2")}</h2>
+        </m.div>
+
+        <div className='mt-20 flex flex-col'>
+          <VerticalTimeline>
+            {translatedProjects.map((certification, index) => (
+              <CertificationCard
+                key={`certification-${index}`}
+                certification={certification}
+              />
+            ))}
+          </VerticalTimeline>
+        </div>
+      </>
+    </LazyMotion>
+  );
+};
+
+export default SectionWrapper(Certification, "work");
