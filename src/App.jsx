@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate, useParams } from "react-router-dom";
+import { Routes, Route, useParams } from "react-router-dom";
 import { Suspense, useEffect, lazy } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -54,7 +54,7 @@ function Page() {
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="/en" replace />} />
+      <Route path="/" element={<Page />} />
       <Route path="/:lang" element={<Page />} />
     </Routes>
   );
