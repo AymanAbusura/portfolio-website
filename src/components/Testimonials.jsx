@@ -1,6 +1,7 @@
 /* eslint-disable react-refresh/only-export-components */
 import { LazyMotion, domAnimation, m } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import PropTypes from "prop-types";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
@@ -25,6 +26,13 @@ const TestimonialCard = ({ index, name, role, quote }) => (
     </div>
   </m.div>
 );
+
+TestimonialCard.propTypes = {
+  index: PropTypes.number.isRequired,
+  name: PropTypes.string.isRequired,
+  role: PropTypes.string.isRequired,
+  quote: PropTypes.string.isRequired,
+};
 
 const Testimonials = () => {
   const { t } = useTranslation();

@@ -13,6 +13,8 @@ const Tech = () => {
           <img
             src={technology.icon}
             alt={technology.name}
+            width={40}
+            height={40}
             className='w-10 h-10 object-contain grayscale group-hover:grayscale-0 transition-all duration-300'
             loading='lazy'
           />

@@ -31,7 +31,7 @@ const Navbar = () => {
             window.scrollTo(0,0);
           }}
         >
-          <img src={photo400} alt="logo" className="w-8 h-8 object-cover object-bottom rounded-lg border border-line" loading="lazy" />
+          <img src={photo400} alt="logo" width={32} height={32} className="w-8 h-8 object-cover object-bottom rounded-lg border border-line" loading="lazy" />
           <p className="text-ink text-[15px] font-display font-semibold cursor-pointer flex items-center gap-2">
             {t("navbar.box1")}
             <span className="sm:inline hidden font-mono text-[12px] font-normal text-secondary">/ {t("navbar.position")}</span>

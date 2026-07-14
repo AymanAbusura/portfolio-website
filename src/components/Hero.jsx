@@ -96,7 +96,7 @@ const Hero = () => {
                     className="w-11 h-11 rounded-full bg-black border border-line hover:bg-accent flex items-center justify-center transition duration-300"
                     variants={iconVariant}
                   >
-                    <img src={s.icon} alt="" className="w-5 h-5 object-contain" loading="lazy" />
+                    <img src={s.icon} alt="" width={20} height={20} className="w-5 h-5 object-contain" loading="lazy" />
                   </m.a>
                 ))}
               </div>

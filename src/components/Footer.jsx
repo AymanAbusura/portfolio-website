@@ -31,7 +31,7 @@ const Footer = () => {
               aria-label={s.label}
               className="w-10 h-10 rounded-full border border-black/15 flex items-center justify-center hover:bg-accent hover:border-accent transition-colors duration-300"
             >
-              <img src={s.icon} alt="" className="w-5 h-5 object-contain invert opacity-70" loading="lazy" />
+              <img src={s.icon} alt="" width={20} height={20} className="w-5 h-5 object-contain invert opacity-70" loading="lazy" />
             </a>
           ))}
         </div>

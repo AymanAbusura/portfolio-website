@@ -2,8 +2,8 @@ import { Routes, Route, Navigate, useParams } from "react-router-dom";
 import { Suspense, useEffect, lazy } from "react";
 import { useTranslation } from "react-i18next";
 
-const Hero = lazy(() => import("./components/Hero"));
-const Navbar = lazy(() => import("./components/Navbar"));
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
 const About = lazy(() => import("./components/About"));
 const Tech = lazy(() => import("./components/Tech"));
 const Experience = lazy(() => import("./components/Experience"));
