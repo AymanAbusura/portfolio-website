@@ -261,19 +261,19 @@
         "header2": "Testimonials",
         "items": [
             {
-                "name": "Dmitry Volkov",
-                "role": "Team Lead, LeadHunters",
+                "name": "Igor",
+                "role": "Team Lead",
                 "quote": "Ayman consistently turns vague requirements into working features fast. His Telegram bot automations saved our team hours every week."
             },
             {
-                "name": "Sara Haddad",
-                "role": "Product Manager, Nozzum",
+                "name": "Sara",
+                "role": "Product Manager",
                 "quote": "Reliable, detail-oriented, and easy to work with. He communicates trade-offs clearly and always delivers production-ready code."
             },
             {
-                "name": "Mohanad Kareem",
-                "role": "Fellow Developer",
-                "quote": "One of the few developers I trust with both frontend polish and backend architecture. Great eye for performance and UX."
+                "name": "Mohanad",
+                "role": "Marketing Specialist",
+                "quote": "I had the pleasure of working with Ayman on the development of my website, and I couldn’t be happier with the results. From the very beginning, Ayman demonstrated exceptional professionalism, creativity, and technical expertise. He took the time to understand my vision and needs, ensuring every detail aligned with my goals."
             }
         ]
     },
