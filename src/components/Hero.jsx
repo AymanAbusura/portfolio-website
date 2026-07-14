@@ -121,7 +121,7 @@ const Hero = () => {
                 width={isMobile ? 220 : 300}
                 height={isMobile ? 293 : 400}
                 fetchpriority="high"
-                className="w-[220px] sm:w-[300px] h-[293px] sm:h-[300px] object-contain object-top rounded-3xl grayscale-[15%]"
+                className="w-[220px] sm:w-[300px] h-[293px] sm:h-[300px] object-cover sm:object-contain object-top rounded-3xl grayscale-[15%]"
               />
             </picture>
           </m.div>
