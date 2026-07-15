@@ -21,19 +21,6 @@ import {
   leadhunters,
   coursera,
   // udemy,
-  darkyellowprelandingpage,
-  redlandingpage,
-  darkgreenprelandingpage,
-  grayprelandingpage,
-  greenprelandingpage,
-  orangepage,
-  shinycryptopage,
-  cryptoplatform,
-  moderncryptolandingpage,
-  maincryptolanding,
-  whitelandingpage,
-  modrenpinkpurplecryptolandingpage,
-  ironmasterpage,
   diagram,
   ecommerce,
   fitness,
@@ -231,279 +218,98 @@ const certifications = [
 ];
 
 const projects = [
-  {
-    name: "Dark Yellow Prelanding Page",
-    description: "A modern pre-landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JS",
-        color: "green-text-gradient",
-      },
-    ],
-    image: darkyellowprelandingpage,
-    preview: import.meta.env.VITE_APP_PROJECT_PREVIEW1,
-    source_code_link: import.meta.env.VITE_APP_PROJECT_LINK1,
-  },
-  {
-    name: "Red Prelanding Page",
-    description: "A modern pre-landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JS",
-        color: "green-text-gradient",
-      },
-    ],
-    image: redlandingpage,
-    preview: import.meta.env.VITE_APP_PROJECT_PREVIEW2,
-    source_code_link: import.meta.env.VITE_APP_PROJECT_LINK2,
-  },
-  {
-    name: "Dark Green PreLanding Page",
-    description: "A modern pre-landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JS",
-        color: "green-text-gradient",
-      },
-    ],
-    image: darkgreenprelandingpage,
-    preview: import.meta.env.VITE_APP_PROJECT_PREVIEW3,
-    source_code_link: import.meta.env.VITE_APP_PROJECT_LINK3,
-  },
-  {
-    name: "Gray Prelanding Page",
-    description: "A modern pre-landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JS",
-        color: "green-text-gradient",
-      },
-    ],
-    image: grayprelandingpage,
-    preview: import.meta.env.VITE_APP_PROJECT_PREVIEW4,
-    source_code_link: import.meta.env.VITE_APP_PROJECT_LINK4,
-  },
-  {
-    name: "Green Prelanding Page",
-    description: "A modern pre-landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JS",
-        color: "green-text-gradient",
-      },
-    ],
-    image: greenprelandingpage,
-    preview: import.meta.env.VITE_APP_PROJECT_PREVIEW5,
-    source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
-  },
-  {
-    name: "Orange Colored Page",
-    description: "A modern pre-landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JS",
-        color: "green-text-gradient",
-      },
-    ],
-    image: orangepage,
-    preview: import.meta.env.VITE_APP_PROJECT_PREVIEW6,
-    source_code_link: import.meta.env.VITE_APP_PROJECT_LINK6,
-  },
-  {
-    name: "White Landing Page",
-    description: "A modern landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JS",
-        color: "green-text-gradient",
-      },
-    ],
-    image: whitelandingpage,
-    preview: import.meta.env.VITE_APP_PROJECT_PREVIEW7,
-    source_code_link: import.meta.env.VITE_APP_PROJECT_LINK7,
-  },
-  {
-    name: "Shiny Crypto Page",
-    description: "A modern pre-landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JS",
-        color: "green-text-gradient",
-      },
-    ],
-    image: shinycryptopage,
-    preview: import.meta.env.VITE_APP_PROJECT_PREVIEW8,
-    source_code_link: import.meta.env.VITE_APP_PROJECT_LINK8,
-  },
-  {
-    name: "Main Crypto Landing Page",
-    description: "A modern landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JS",
-        color: "green-text-gradient",
-      },
-    ],
-    image: maincryptolanding,
-    preview: import.meta.env.VITE_APP_PROJECT_PREVIEW9,
-    source_code_link: import.meta.env.VITE_APP_PROJECT_LINK9,
-  },
-  {
-    name: "Modren Pink Purple Crypto Landing Page",
-    description: "A modern landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JS",
-        color: "green-text-gradient",
-      },
-    ],
-    image: modrenpinkpurplecryptolandingpage,
-    preview: import.meta.env.VITE_APP_PROJECT_PREVIEW10,
-    source_code_link: import.meta.env.VITE_APP_PROJECT_LINK10,
-  },
-  {
-    name: "Modern Crypto Landing Page",
-    description: "A modern landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JS",
-        color: "green-text-gradient",
-      },
-    ],
-    image: moderncryptolandingpage,
-    preview: import.meta.env.VITE_APP_PROJECT_PREVIEW11,
-    source_code_link: import.meta.env.VITE_APP_PROJECT_LINK11,
-  },
-  {
-    name: "Crypto Platform",
-    description: "Our Crypto Platform Project is built to offer users a seamless and efficient experience when exploring cryptocurrencies. Whether you're an experienced trader or just starting out, our platform features a user-friendly interface and a variety of tools to suit your needs.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JS",
-        color: "green-text-gradient",
-      },
-    ],
-    image: cryptoplatform,
-    preview: import.meta.env.VITE_APP_PROJECT_PREVIEW12,
-    source_code_link: import.meta.env.VITE_APP_PROJECT_LINK12,
-  },
-  {
-    name: "IronMaster Page",
-    description: "A construction company specializing in custom metal frame structures, fences, gates, and canopies—Iron Master delivers durable, functional designs with over 25 years of experience.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JS",
-        color: "green-text-gradient",
-      },
-    ],
-    image: ironmasterpage,
-    preview: import.meta.env.VITE_APP_PROJECT_PREVIEW13,
-    source_code_link: import.meta.env.VITE_APP_PROJECT_LINK13,
-  },
+  // {
+  //     name: "Whitegen AI - White Paper Generator",
+  //     description: t("works.projects.work1.description"),
+  //     tags: [
+  //       { name: "React", color: "blue-text-gradient" },
+  //       { name: "Node.js", color: "green-text-gradient" },
+  //       { name: "Express", color: "purple-text-gradient" },
+  //       { name: "SQLite", color: "orange-text-gradient" },
+  //       { name: "Redis", color: "pink-text-gradient" },
+  //       { name: "BullMQ", color: "yellow-text-gradient" },
+  //     ],
+  //     image: whitegen,
+  //     preview: import.meta.env.VITE_APP_PROJECT_PREVIEW1,
+  //     source_code_link: import.meta.env.VITE_APP_PROJECT_LINK1,
+  //   },
+  //   {
+  //     name: "AI Landing Page Localization Service",
+  //     description: t("works.projects.work2.description"),
+  //     tags: [
+  //       { name: "Node.js", color: "green-text-gradient" },
+  //       { name: "DeepL API", color: "blue-text-gradient" },
+  //       { name: "HTML Parser", color: "purple-text-gradient" },
+  //       { name: "Automation", color: "orange-text-gradient" },
+  //     ],
+  //     image: deeplservice,
+  //     preview: import.meta.env.VITE_APP_PROJECT_PREVIEW2,
+  //     source_code_link: import.meta.env.VITE_APP_PROJECT_LINK2,
+  //   },
+  //   {
+  //     name: "Telegram Mini App",
+  //     description: t("works.projects.work3.description"),
+  //     tags: [
+  //       { name: "React", color: "blue-text-gradient" },
+  //       { name: "Telegram API", color: "purple-text-gradient" },
+  //       { name: "Node.js", color: "green-text-gradient" },
+  //       { name: "Backend", color: "orange-text-gradient" },
+  //     ],
+  //     image: telegramminiapp,
+  //     preview: import.meta.env.VITE_APP_PROJECT_PREVIEW3,
+  //     source_code_link: import.meta.env.VITE_APP_PROJECT_LINK3,
+  //   },
+  //   {
+  //     name: "Telegram Automation Bot",
+  //     description: t("works.projects.work4.description"),
+  //     tags: [
+  //       { name: "Node.js", color: "green-text-gradient" },
+  //       { name: "Telegram Bot API", color: "blue-text-gradient" },
+  //       { name: "API Integration", color: "purple-text-gradient" },
+  //     ],
+  //     image: telegrambot,
+  //     preview: import.meta.env.VITE_APP_PROJECT_PREVIEW4,
+  //     source_code_link: import.meta.env.VITE_APP_PROJECT_LINK4,
+  //   },
+  //   {
+  //     name: "Puppeteer Browser Automation Bot",
+  //     description: t("works.projects.work5.description"),
+  //     tags: [
+  //       { name: "Node.js", color: "green-text-gradient" },
+  //       { name: "Puppeteer", color: "blue-text-gradient" },
+  //       { name: "Automation", color: "purple-text-gradient" },
+  //       { name: "Web Scraping", color: "orange-text-gradient" },
+  //     ],
+  //     image: puppeteerbot,
+  //     preview: import.meta.env.VITE_APP_PROJECT_PREVIEW5,
+  //     source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
+  //   },
+  //   {
+  //     name: "IronMaster Website",
+  //     description: t("works.projects.work6.description"),
+  //     tags: [
+  //       { name: "React", color: "blue-text-gradient" },
+  //       { name: "CSS", color: "purple-text-gradient" },
+  //       { name: "JavaScript", color: "green-text-gradient" },
+  //       { name: "Responsive Design", color: "orange-text-gradient" },
+  //     ],
+  //     image: ironmasterpage,
+  //     preview: import.meta.env.VITE_APP_PROJECT_PREVIEW6,
+  //     source_code_link: import.meta.env.VITE_APP_PROJECT_LINK6,
+  //   },
+  //   {
+  //     name: "Crypto Platform",
+  //     description: t("works.projects.work7.description"),
+  //     tags: [
+  //       { name: "HTML", color: "blue-text-gradient" },
+  //       { name: "CSS", color: "purple-text-gradient" },
+  //       { name: "JavaScript", color: "green-text-gradient" },
+  //       { name: "UI/UX", color: "orange-text-gradient" },
+  //     ],
+  //     image: cryptoplatform,
+  //     preview: import.meta.env.VITE_APP_PROJECT_PREVIEW7,
+  //     source_code_link: import.meta.env.VITE_APP_PROJECT_LINK7,
+  //   }
 ];
 
 const petProjects = [

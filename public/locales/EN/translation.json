@@ -146,56 +146,32 @@
         "toggle_title2": "pet-projects",
         "projects": {
             "work1": {
-                "title": "Dark Yellow Prelanding Page",
-                "description": "A modern pre-landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
+                "title": "Whitegen AI - White Paper Generator",
+                "description": "Built an AI-powered white paper generation platform using Claude AI (Anthropic). Developed a full-stack web application with React and Node.js/Express, using SQLite for data storage and BullMQ with Redis for background job processing and asynchronous document generation."
             },
             "work2": {
-                "title": "Red PreLanding Page",
-                "description": "A modern pre-landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
+                "title": "AI Landing Page Localization Service",
+                "description": "Built an automated translation service using the DeepL API for localizing landing and pre-landing pages. Implemented HTML parsing and structure preservation to translate content while maintaining the original page layout and formatting."
             },
             "work3": {
-                "title": "Dark Green PreLanding Page",
-                "description": "A modern pre-landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
+                "title": "Telegram Mini App",
+                "description": "Developed a Telegram Mini App integrated with Telegram WebApp APIs, providing a seamless application experience directly inside Telegram with backend communication and user workflows."
             },
             "work4": {
-                "title": "Gray Prelanding Page",
-                "description": "A modern pre-landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
+                "title": "Telegram Automation Bot",
+                "description": "Created a Telegram bot for automated user interactions, notifications, and workflow management. Integrated external services and backend logic to handle automated processes."
             },
             "work5": {
-                "title": "Green Prelanding Page",
-                "description": "A modern pre-landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
+                "title": "Puppeteer Browser Automation Bot",
+                "description": "Built a Node.js automation system using Puppeteer for automated browser interactions, form filling, and submission workflows. Designed to reduce repetitive manual tasks through browser automation."
             },
             "work6": {
-                "title": "Orange Colored Page",
-                "description": "A modern pre-landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
+                "title": "IronMaster Company Website",
+                "description": "Developed a modern website for IronMaster, a company specializing in custom metal structures, gates, fences, and construction solutions. Created a responsive interface focused on usability and business presentation."
             },
             "work7": {
-                "title": "White Landing Page",
-                "description": "A modern landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
-            },
-            "work8": {
-                "title": "Shiny Crypto Page",
-                "description": "A modern landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
-            },
-            "work9": {
-                "title": "Main Crypto Landing Page",
-                "description": "A modern landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
-            },
-            "work10": {
-                "title": "Modren Pink Purple Crypto Landing Page",
-                "description": "A modern landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
-            },
-            "work11": {
-                "title": "Modern Crypto Landing Page",
-                "description": "A modern landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
-            },
-            "work12": {
                 "title": "Crypto Platform",
-                "description": "Our Crypto Platform Project is built to offer users a seamless and efficient experience when exploring cryptocurrencies. Whether you're an experienced trader or just starting out, our platform features a user-friendly interface and a variety of tools to suit your needs."
-            },
-            "work13": {
-                "title": "IronMaster Page",
-                "description": "A construction company specializing in custom metal frame structures, fences, gates, and canopies—Iron Master delivers durable, functional designs with over 25 years of experience."
+                "description": "Created a cryptocurrency platform concept with a modern user interface, trading-related features, and a responsive design focused on providing users with an intuitive experience."
             }
         },
         "petProjects": {

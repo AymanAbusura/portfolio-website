@@ -51,19 +51,13 @@ import weather from "./petprojects/weather.webp";
 import apple from "./petprojects/apple.webp";
 import storeit from "./petprojects/storeit.webp";
 
-import darkyellowprelandingpage from "./projects/darkyellowprelandingpage.webp";
-import redlandingpage from "./projects/redlandingpage.webp"
-import darkgreenprelandingpage from "./projects/darkgreenprelandingpage.webp";
-import grayprelandingpage from "./projects/grayprelandingpage.webp"
-import greenprelandingpage from "./projects/greenprelandingpage.webp";
-import orangepage from "./projects/orangepage.webp";
-import shinycryptopage from "./projects/shinycryptopage.webp";
+import whitegen from "./projects/whitegen.webp";
+import telegramminiapp from "./projects/telegramminiapp.webp";
+import telegrambot from "./projects/telegrambot.webp";
+import puppeteerbot from "./projects/puppeteerbot.webp";
+import deeplservice from "./projects/deeplservice.svg";
 import cryptoplatform from "./projects/cryptoplatform.webp";
-import moderncryptolandingpage from "./projects/moderncryptolandingpage.webp";
 import ironmasterpage from "./projects/ironmasterpage.webp";
-import maincryptolanding from "./projects/maincryptolanding.webp";
-import whitelandingpage from "./projects/whitelandingpage.webp";
-import modrenpinkpurplecryptolandingpage from "./projects/modrenpinkpurplecryptolandingpage.webp";
 
 export {
   logo,
@@ -98,18 +92,12 @@ export {
   leadhunters,
   coursera,
   udemy,
-  darkyellowprelandingpage,
-  redlandingpage,
-  darkgreenprelandingpage,
-  grayprelandingpage,
-  greenprelandingpage,
-  orangepage,
-  shinycryptopage,
+  whitegen,
+  telegramminiapp,
+  telegrambot,
+  puppeteerbot,
+  deeplservice,
   cryptoplatform,
-  moderncryptolandingpage,
-  maincryptolanding,
-  whitelandingpage,
-  modrenpinkpurplecryptolandingpage,
   ironmasterpage,
   diagram,
   ecommerce,
