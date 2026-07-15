@@ -11,6 +11,7 @@ import {
     telegrambot,
     puppeteerbot,
     deeplservice,
+    dadagroupplatform,
     cryptoplatform,
     ironmasterpage,
     diagram, 
@@ -205,8 +206,19 @@ const getMaybe = (t, key) => {
       image: puppeteerbot,
     },
     {
-      name: "IronMaster Website",
+      name: "DaDa Group Platform",
       description: t("works.projects.work6.description"),
+      tags: [
+        { name: "React", color: "blue-text-gradient" },
+        { name: "Supabase", color: "green-text-gradient" },
+        { name: "Admin Dashboard", color: "purple-text-gradient" },
+        { name: "Authentication", color: "orange-text-gradient" },
+      ],
+      image: dadagroupplatform,
+    },
+    {
+      name: "IronMaster Website",
+      description: t("works.projects.work7.description"),
       tags: [
         { name: "React", color: "blue-text-gradient" },
         { name: "CSS", color: "purple-text-gradient" },
@@ -217,7 +229,7 @@ const getMaybe = (t, key) => {
     },
     {
       name: "Crypto Platform",
-      description: t("works.projects.work7.description"),
+      description: t("works.projects.work8.description"),
       tags: [
         { name: "HTML", color: "blue-text-gradient" },
         { name: "CSS", color: "purple-text-gradient" },

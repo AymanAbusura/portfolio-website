@@ -166,10 +166,14 @@
                 "description": "Built a Node.js automation system using Puppeteer for automated browser interactions, form filling, and submission workflows. Designed to reduce repetitive manual tasks through browser automation."
             },
             "work6": {
+                "title": "DaDa Group Platform",
+                "description": "Developed a platform with an administrative dashboard and internal company services. Built a modern client-side architecture using React, integrated Supabase for data storage and authentication, and implemented user interfaces to support internal business workflows."
+            },
+            "work7": {
                 "title": "IronMaster Company Website",
                 "description": "Developed a modern website for IronMaster, a company specializing in custom metal structures, gates, fences, and construction solutions. Created a responsive interface focused on usability and business presentation."
             },
-            "work7": {
+            "work8": {
                 "title": "Crypto Platform",
                 "description": "Created a cryptocurrency platform concept with a modern user interface, trading-related features, and a responsive design focused on providing users with an intuitive experience."
             }

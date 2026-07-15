@@ -55,6 +55,7 @@ import whitegen from "./projects/whitegen.webp";
 import telegramminiapp from "./projects/telegramminiapp.webp";
 import telegrambot from "./projects/telegrambot.webp";
 import puppeteerbot from "./projects/puppeteerbot.webp";
+import dadagroupplatform from "./projects/dadagroupplatform.webp";
 import deeplservice from "./projects/deeplservice.svg";
 import cryptoplatform from "./projects/cryptoplatform.webp";
 import ironmasterpage from "./projects/ironmasterpage.webp";
@@ -97,6 +98,7 @@ export {
   telegrambot,
   puppeteerbot,
   deeplservice,
+  dadagroupplatform,
   cryptoplatform,
   ironmasterpage,
   diagram,
