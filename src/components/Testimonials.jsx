@@ -16,7 +16,7 @@ const TestimonialCard = ({ index, name, role, quote }) => (
       {quote}
     </p>
     <div className="mt-6 flex items-center gap-3">
-      <div className="w-10 h-10 rounded-full bg-gradient-to-br from-custom-purple to-p1 flex items-center justify-center text-ink font-bold text-[14px]">
+      <div className="w-10 h-10 rounded-full bg-gradient-to-br bg-black flex items-center justify-center text-white font-bold text-[14px]">
         {name.charAt(0)}
       </div>
       <div>

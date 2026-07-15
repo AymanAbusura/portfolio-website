@@ -34,12 +34,11 @@ import {
     udemy,
   } from "../assets";
 
-  // Returns only existing translation points
-const getPoints = (t, job) => {
+const getPoints = (t, job, section = "description") => {
   const points = [];
 
-  for (let i = 1; i <= 14; i++) {
-    const key = `experience.${job}.description.point${i}`;
+  for (let i = 1; i <= 20; i++) {
+    const key = `experience.${job}.${section}.point${i}`;
     const value = t(key);
 
     if (value !== key) {
@@ -48,6 +47,11 @@ const getPoints = (t, job) => {
   }
 
   return points;
+};
+
+const getMaybe = (t, key) => {
+  const value = t(key);
+  return value === key ? null : value;
 };
   
   export const getServices = (t) => [
@@ -70,37 +74,46 @@ const getPoints = (t, job) => {
   ];
 
   export const getExperiences = (t) => [
-  {
-    title: t("experience.job1.title"),
-    company_name: t("experience.job1.company"),
-    location: t("experience.job1.location"),
-    about: t("experience.job1.about"),
-    icon: leadhunters,
-    iconBg: "#fff",
-    date: t("experience.job1.date"),
-    points: getPoints(t, "job1"),
-  },
-  {
-    title: t("experience.job2.title"),
-    company_name: t("experience.job2.company"),
-    location: t("experience.job2.location"),
-    about: t("experience.job2.about"),
-    icon: nozzum,
-    iconBg: "#fff",
-    date: t("experience.job2.date"),
-    points: getPoints(t, "job2"),
-  },
-  {
-    title: t("experience.job3.title"),
-    company_name: t("experience.job3.company"),
-    location: t("experience.job3.location"),
-    about: t("experience.job3.about"),
-    icon: shahin,
-    iconBg: "#fff",
-    date: t("experience.job3.date"),
-    points: getPoints(t, "job3"),
-  },
-];
+    {
+      title: t("experience.job1.title"),
+      company_name: t("experience.job1.company"),
+      location: t("experience.job1.location"),
+      about: t("experience.job1.about"),
+      icon: leadhunters,
+      iconBg: "#fff",
+      date: t("experience.job1.date"),
+      points: getPoints(t, "job1"),
+      achievements: getPoints(t, "job1", "achievements"),
+      kpis: getPoints(t, "job1", "kpis"),
+      stack: getMaybe(t, "experience.job1.stack"),
+    },
+    {
+      title: t("experience.job2.title"),
+      company_name: t("experience.job2.company"),
+      location: t("experience.job2.location"),
+      about: t("experience.job2.about"),
+      icon: nozzum,
+      iconBg: "#fff",
+      date: t("experience.job2.date"),
+      points: getPoints(t, "job2"),
+      achievements: getPoints(t, "job2", "achievements"),
+      kpis: getPoints(t, "job2", "kpis"),
+      stack: getMaybe(t, "experience.job2.stack"),
+    },
+    {
+      title: t("experience.job3.title"),
+      company_name: t("experience.job3.company"),
+      location: t("experience.job3.location"),
+      about: t("experience.job3.about"),
+      icon: shahin,
+      iconBg: "#fff",
+      date: t("experience.job3.date"),
+      points: getPoints(t, "job3"),
+      achievements: getPoints(t, "job3", "achievements"),
+      kpis: getPoints(t, "job3", "kpis"),
+      stack: getMaybe(t, "experience.job3.stack"),
+    },
+  ];
   
   export const getCertifications = (t) => [
     {

@@ -1,24 +1,22 @@
 {
-    "navbar": 
-    {
+    "navbar": {
         "box1": "Ayman Abusura",
         "position": "Fullstack Developer",
         "box2": "About",
         "box3": "Work",
         "box4": "Projects",
-        "box5": "Contact"
+        "box5": "Contact",
+        "language": "language"
     },
-    "hero": 
-    {
+    "hero": {
         "greeting": "Hi, I'm",
         "name": "Ayman",
         "status": "available for work",
         "role": "Fullstack Developer",
-        "description": "Fullstack Developer crafting clean, fast, and reliable products from React interfaces to Node.js backends and the automations that connect them.",
+        "description": "Full-stack Developer specializing in building scalable, high-performance web applications and automation solutions. Experienced in developing modern React frontends, robust Node.js backends, REST APIs, and AI-powered tools, with a strong focus on clean architecture, maintainable code, and delivering reliable, user-centered products.",
         "resume": "Download Resume"
     },
-    "about": 
-    {
+    "about": {
         "header1": "INTRODUCTION",
         "header2": "Overview",
         "description": "I am a Fullstack Developer with over 5 years of commercial experience building modern web applications, internal services, automation systems, and Telegram bots and mini apps. I specialize in developing frontend and backend applications using React, Node.js, Express, and modern web technologies. I have experience developing and maintaining internal services, Telegram bots and Telegram Mini Apps, automating business processes, building AI tools based on LLMs, and integrating APIs. I am experienced in full-cycle development, from UI and system architecture design to testing, optimization, and maintaining production-ready solutions. I am looking to further develop my skills in Fullstack development and AI/LLM engineering, system architecture design, process automation, and building AI-powered solutions, creating efficient and scalable digital products.",
@@ -29,35 +27,52 @@
             "service4": "Backend Developer"
         }
     },
-    "experience": 
-    {
+    "experience": {
         "header1": "WHAT I HAVE DONE SO FAR",
         "header2": "Work Experience",
-        "job1": 
-        {
+        "job1": {
             "title": "Fullstack Developer",
             "company": "LeadHunters",
             "location": "Russia",
             "about": "Media buying agency specializing in purchasing traffic on social networks.",
-            "description": 
-            {
-                "point1": "Developing services and mini-applications integrated with Telegram bots and Telegram mini apps.",
-                "point2": "Building and adapting landing pages/pre-landing pages for different devices.",
-                "point3": "Developing and integrating APIs.",
-                "point4": "Maintaining and improving website forms.",
-                "point5": "Identifying and fixing bugs, optimizing client-side code.",
-                "point6": "Localizing interfaces for different languages."
+            "description": {
+                "point1": "Developing, maintaining, and evolving internal services, Telegram bots, and Telegram Mini Apps.",
+                "point2": "Automating routine business processes and operational tasks for the team.",
+                "point3": "Building AI tools and LLM-powered services for content generation and processing.",
+                "point4": "Building and adapting landing pages/pre-landing pages for different devices.",
+                "point5": "Developing and integrating APIs.",
+                "point6": "Maintaining and improving website forms.",
+                "point7": "Identifying and fixing bugs, optimizing client-side and server-side code.",
+                "point8": "Localizing interfaces for different languages.",
+                "point9": "Testing user flows and UI components."
             },
-            "date": "Jan 2022 - Present"
+            "date": "Jan 2022 - Present",
+            "achievements": {
+                "point1": "Built an AI-powered white-paper generation service on top of Claude AI (Anthropic): a full-stack web app in React and Node.js/Express, using SQLite for storage and BullMQ + Redis for job queues.",
+                "point2": "Implemented automatic HTML page generation, a template library, and archive export for finished projects.",
+                "point3": "Built an automated translation service for landing/pre-landing pages via the DeepL API, parsing HTML structure and preserving layout after localization.",
+                "point4": "Designed and shipped several internal services and Telegram Mini Apps.",
+                "point5": "Built a Node.js Telegram bot that automated routine processes, significantly speeding up operational tasks.",
+                "point6": "Built a Playwright project for emulating different User-Agents and automating test scenarios.",
+                "point7": "Built a Puppeteer + Node.js bot for automated form filling and submission.",
+                "point8": "Built a web app for generating randomized user data with filtering by country and record count.",
+                "point9": "Integrated external APIs to keep production web apps running reliably.",
+                "point10": "Built and adapted landing/pre-landing pages for different devices, ensuring cross-browser and cross-platform compatibility.",
+                "point11": "Improved web form functionality: added interactive elements and a duplicate-submission guard.",
+                "point12": "Prepared and localized landing/pre-landing pages for Arabic-speaking audiences, including RTL layout.",
+                "point13": "Advised colleagues on responsive and RTL layout, JavaScript optimization, and cross-browser compatibility."
+            },
+            "kpis": {
+                "point1": "Built, adapted, and tested 40,000+ landing/pre-landing pages over 4 years."
+            },
+            "stack": "HTML5, CSS3, JavaScript, React, Node.js, Express.js, PHP, Redis, BullMQ, SQLite, Playwright, Puppeteer, REST API"
         },
-        "job2": 
-        {
+        "job2": {
             "title": "Java Developer",
             "company": "Nozzum for Business Solutions",
             "location": "Amman, Jordan",
             "about": "Specializing in the development of software solutions for businesses, especially in the financial sector. The company's main product is <Remit Flow>, designed for exchange offices and money transfers.",
-            "description": 
-            {
+            "description": {
                 "point1": "Participated in all stages of software development: design, implementation, deployment, and support..",
                 "point2": "Analyzed requirements and contributed to achieving business goals.",
                 "point3": "Developed and maintained Java/Java EE applications with a focus on optimization and scalability.",
@@ -65,60 +80,64 @@
                 "point5": "Coordinated with various departments (analytics, DevOps, support) to ensure smooth system operation and successful solution implementation.",
                 "point6": "Prepared technical documentation and provided user guidance."
             },
-            "date": "Mar 2020 - Jun 2021"
+            "date": "Mar 2020 - Jun 2021",
+            "achievements": {
+                "point1": "Took part in every stage of the company's core product, <Remit Flow> — from design to deployment and support.",
+                "point2": "Built and maintained Java/Java EE modules focused on performance and scalability.",
+                "point3": "Coordinated with analytics, DevOps, and support teams to keep the system running smoothly.",
+                "point4": "Prepared technical documentation and user guidance materials."
+            },
+            "stack": "Java, Spring (Boot, Security), Hibernate, MySQL, RESTful APIs."
         },
-        "job3": 
-        {
+        "job3": {
             "title": "Technical Support Specialist",
             "company": "Shahin Computer Est.",
             "location": "Amman, Jordan",
             "about": "IT services company. Provides domain registration, hosting, web design and development, and also offers accounting systems and technical support.",
-            "description": 
-            {
+            "description": {
                 "point1": "Troubleshooting and resolving software and hardware issues.",
                 "point2": "Diagnosing and fixing technical problems, including account setup and network configuration.",
                 "point3": "Following up with clients to ensure full functionality of their IT systems after issue resolution."
             },
             "date": "Jul 2018 - Jul 2019"
+        },
+        "labels": {
+            "tasks": "Key responsibilities",
+            "achievements": "Key achievements",
+            "kpis": "Key metrics (KPI)",
+            "stack": "Tech stack"
         }
     },
-    "certification": 
-    {
+    "certification": {
         "header1": "WHAT I HAVE DONE SO FAR",
         "header2": "Certifications",
-        "certification1": 
-        {
+        "certification1": {
             "title": "The Complete Al Coding Course (2025) - Cursor, Claude Code",
             "company": "Udemy",
             "date": "Dec 2025"
         },
-        "certification2": 
-        {
+        "certification2": {
             "title": "IBM Full Stack Software Developer Professional Certificate",
             "company": "Coursera",
             "date": "Sep 2024"
         },
-        "certification3": 
-        {
+        "certification3": {
             "title": "Agile with Atlassian Jira",
             "company": "Coursera",
             "date": "Feb 2024"
         },
-        "certification4": 
-        {
+        "certification4": {
             "title": "Meta React Native Specialization",
             "company": "Coursera",
             "date": "Feb 2024"
         },
-        "certification5": 
-        {
+        "certification5": {
             "title": "Meta Front-End Developer Professional Certificate",
             "company": "Coursera",
             "date": "Aug 2023"
         }
     },
-    "works": 
-    {
+    "works": {
         "header1": "MY WORK",
         "header2": "Projects",
         "description": "Following projects showcases my skills. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
@@ -126,137 +145,111 @@
         "toggle_title": "projects",
         "toggle_title2": "pet-projects",
         "projects": {
-            "work1": 
-            {
+            "work1": {
                 "title": "Dark Yellow Prelanding Page",
                 "description": "A modern pre-landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
             },
-            "work2": 
-            {
+            "work2": {
                 "title": "Red PreLanding Page",
                 "description": "A modern pre-landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
             },
-            "work3": 
-            {
+            "work3": {
                 "title": "Dark Green PreLanding Page",
                 "description": "A modern pre-landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
             },
-            "work4": 
-            {
+            "work4": {
                 "title": "Gray Prelanding Page",
                 "description": "A modern pre-landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
             },
-            "work5": 
-            {
+            "work5": {
                 "title": "Green Prelanding Page",
                 "description": "A modern pre-landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
             },
-            "work6": 
-            {
+            "work6": {
                 "title": "Orange Colored Page",
                 "description": "A modern pre-landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
             },
-            "work7": 
-            {
+            "work7": {
                 "title": "White Landing Page",
                 "description": "A modern landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
             },
-            "work8": 
-            {
+            "work8": {
                 "title": "Shiny Crypto Page",
                 "description": "A modern landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
             },
-            "work9": 
-            {
+            "work9": {
                 "title": "Main Crypto Landing Page",
                 "description": "A modern landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
             },
-            "work10": 
-            {
+            "work10": {
                 "title": "Modren Pink Purple Crypto Landing Page",
                 "description": "A modern landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
             },
-            "work11": 
-            {
+            "work11": {
                 "title": "Modern Crypto Landing Page",
                 "description": "A modern landing page for an investment platform offering zero fees, expert support, and a trading simulator—designed to help users grow and protect their savings with ease."
             },
-            "work12": 
-            {
+            "work12": {
                 "title": "Crypto Platform",
                 "description": "Our Crypto Platform Project is built to offer users a seamless and efficient experience when exploring cryptocurrencies. Whether you're an experienced trader or just starting out, our platform features a user-friendly interface and a variety of tools to suit your needs."
             },
-            "work13": 
-            {
+            "work13": {
                 "title": "IronMaster Page",
                 "description": "A construction company specializing in custom metal frame structures, fences, gates, and canopies—Iron Master delivers durable, functional designs with over 25 years of experience."
             }
         },
         "petProjects": {
-            "work1": 
-            {
+            "work1": {
                 "title": "Diagram",
                 "description": "Social Media App that enable users to create and share content and participate in social networking."
             },
-            "work2": 
-            {
+            "work2": {
                 "title": "E-Shop",
                 "description": "Online shop, browse product catalogs, create wish lists, add items to a cart, and complete purchases. It also provides payment processing, shipping, and order management capabilities."
             },
-            "work3": 
-            {
+            "work3": {
                 "title": "Weather",
                 "description": "Stay informed and prepared with Weather App, your ultimate companion for real-time weather updates and forecasts! Designed with a user-friendly interface."
             },
-            "work4": 
-            {
+            "work4": {
                 "title": "Apple iPhone15",
                 "description": "This project focuses on rebuilding the Apple iPhone 15 Pro website by integrating GSAP animations and 3D effects using Three.js. It provides a comprehensive tutorial on creating everything from unique animations to interactive 3D models."
             },
-            "work5": 
-            {
+            "work5": {
                 "title": "Trendy",
                 "description": "Trendy Dashboard for Ecommerce Shop."
             },
-            "work6": 
-            {
+            "work6": {
                 "title": "Xora",
                 "description": "XORA AI Video Editor - SaaS Landing Page."
             },
-            "work7": 
-            {
+            "work7": {
                 "title": "Tracker",
                 "description": "Track your progress, motivate your efforts, and celebrate your successes - SaaS Landing Page."
             },
-            "work8": 
-            {
+            "work8": {
                 "title": "Mohanad's Portfolio",
                 "description": "A 3D Marketing Portfolio describes Mohanad's expertise as a Marketer."
             },
-            "work9": 
-            {
+            "work9": {
                 "title": "Aora",
                 "description": "Social Media App that enable users to create and share content and participate in social networking."
             },
-            "work10": 
-            {
+            "work10": {
                 "title": "Fitness",
                 "description": "Fitness app designed to help with exercise, other types of physical training, nutrition and diet, and other ways to get fit."
             },
-            "work11": 
-            {
+            "work11": {
                 "title": "LeadHunters",
                 "description": "Corporate website designed for presenting a LeadHunters company."
             },
-            "work12": 
-            {
+            "work12": {
                 "title": "StoreIt",
                 "description": "A Google Drive clone application, StoreIt, designed to provide users with a platform for storing, managing, and sharing files. This project demonstrates core functionalities of a cloud storage system with a user-friendly interface and robust backend."
             }
         }
     },
-    "testimonials":
-    {
+    "testimonials": {
         "header1": "WHAT PEOPLE SAY",
         "header2": "Testimonials",
         "items": [
@@ -277,12 +270,10 @@
             }
         ]
     },
-    "contact": 
-    {
+    "contact": {
         "header1": "GET IN TOUCH",
         "header2": "Contact",
-        "form": 
-        {
+        "form": {
             "field1": "Name/Organization Name",
             "input1": "",
             "field2": "Email",
@@ -295,8 +286,7 @@
             "error": "Ahh, something went wrong. Please try again."
         }
     },
-    "footer":
-    {
+    "footer": {
         "box1": "Terms & Conditions",
         "box2": "Privacy Policy",
         "box3": "© 2026 Ayman Abusura. All rights reserved."
