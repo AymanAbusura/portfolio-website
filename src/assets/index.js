@@ -33,7 +33,6 @@ import nextjs from "./tech/nextjs.webp";
 
 import shahin from "./company/shahin.webp";
 import nozzum from "./company/nozzum.webp";
-import bigo from "./company/bigo.webp";
 import leadhunters from "./company/leadhunters.webp";
 import udemy from "./company/udemy.webp";
 import coursera from "./company/coursera.webp";
@@ -57,7 +56,6 @@ import telegrambot from "./projects/telegrambot.webp";
 import puppeteerbot from "./projects/puppeteerbot.webp";
 import dadagroupplatform from "./projects/dadagroupplatform.webp";
 import deeplservice from "./projects/deeplservice.svg";
-import cryptoplatform from "./projects/cryptoplatform.webp";
 import ironmasterpage from "./projects/ironmasterpage.webp";
 
 export {
@@ -88,7 +86,6 @@ export {
   threejs,
   nextjs,
   nozzum,
-  bigo,
   shahin,
   leadhunters,
   coursera,
@@ -99,7 +96,6 @@ export {
   puppeteerbot,
   deeplservice,
   dadagroupplatform,
-  cryptoplatform,
   ironmasterpage,
   diagram,
   ecommerce,
