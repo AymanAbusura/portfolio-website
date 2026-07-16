@@ -12,6 +12,7 @@ import {
     puppeteerbot,
     deeplservice,
     dadagroupplatform,
+    playwright,
     ironmasterpage,
     diagram, 
     ecommerce, 
@@ -214,6 +215,17 @@ const getMaybe = (t, key) => {
         { name: "Authentication", color: "orange-text-gradient" },
       ],
       image: dadagroupplatform,
+    },
+    {
+      name: "Playwright User-Agent Emulation",
+      description: t("works.projects.work8.description"),
+      tags: [
+        { name: "Playwright", color: "blue-text-gradient" },
+        { name: "TypeScript", color: "purple-text-gradient" },
+        { name: "Automation Testing", color: "green-text-gradient" },
+        { name: "User-Agent Emulation", color: "orange-text-gradient" },
+      ],
+      image: playwright,
     },
     {
       name: "IronMaster Website",

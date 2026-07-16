@@ -6,15 +6,14 @@ import backend from "./others/backend.webp";
 import creator from "./others/creator.webp";
 import mobile from "./others/mobile.webp";
 import web from "./others/web.webp";
-import github from "./others/github.webp";
 import demo from "./others/demo.webp";
 import menu from "./others/menu.svg";
 import close from "./others/close.svg";
-import translate from "./others/translate.webp"
-import linkedin from "./others/linkedin.webp"
-import hh from "./others/hh.webp"
-import habr from "./others/habr.webp"
-import telegram from "./others/telegram.webp"
+import github from "./others/github.svg";
+import linkedin from "./others/linkedin.svg"
+import hh from "./others/hh.svg"
+import habr from "./others/habr.svg"
+import telegram from "./others/telegram.svg"
 
 import css from "./tech/css.webp";
 import docker from "./tech/docker.webp";
@@ -56,6 +55,7 @@ import telegrambot from "./projects/telegrambot.webp";
 import puppeteerbot from "./projects/puppeteerbot.webp";
 import dadagroupplatform from "./projects/dadagroupplatform.webp";
 import deeplservice from "./projects/deeplservice.svg";
+import playwright from "./projects/playwright.svg";
 import ironmasterpage from "./projects/ironmasterpage.webp";
 
 export {
@@ -96,6 +96,7 @@ export {
   puppeteerbot,
   deeplservice,
   dadagroupplatform,
+  playwright,
   ironmasterpage,
   diagram,
   ecommerce,
@@ -109,7 +110,6 @@ export {
   weather,
   apple,
   storeit,
-  translate,
   linkedin,
   hh,
   habr,

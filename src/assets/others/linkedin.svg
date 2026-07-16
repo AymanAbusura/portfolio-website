@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+	<style>
+		.s0 { fill: #ffffff } 
+		.s1 { fill: #ffffff;stroke: #ffffff;stroke-width: 66 } 
+	</style>
+	<path fill-rule="evenodd" class="s0" d="m142 175c-20.46 0-37-16.54-37-37 0-20.46 16.54-37 37-37 20.46 0 37 16.54 37 37 0 20.46-16.54 37-37 37z"/>
+	<path class="s1" d="m244 194v198m-102-198v198"/>
+	<path class="s0" d="m276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66v-113c0-61-32-89-76-89-34 0-51 19-59 32"/>
+</svg>

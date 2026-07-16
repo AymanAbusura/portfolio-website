@@ -170,6 +170,10 @@
                 "description": "Developed a platform with an administrative dashboard and internal company services. Built a modern client-side architecture using React, integrated Supabase for data storage and authentication, and implemented user interfaces to support internal business workflows."
             },
             "work7": {
+                "title": "Playwright User-Agent Emulation",
+                "description": "Developed a Playwright-based project for User-Agent emulation and automated testing. Implemented test execution across multiple browser and device configurations, enabling validation of web application behavior in different user environments while ensuring cross-browser reliability."
+            },
+            "work8": {
                 "title": "IronMaster Company Website",
                 "description": "Developed a modern website for IronMaster, a company specializing in custom metal structures, gates, fences, and construction solutions. Created a responsive interface focused on usability and business presentation."
             }
