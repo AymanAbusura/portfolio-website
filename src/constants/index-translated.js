@@ -12,7 +12,6 @@ import {
     puppeteerbot,
     deeplservice,
     dadagroupplatform,
-    cryptoplatform,
     ironmasterpage,
     diagram, 
     ecommerce, 
@@ -226,17 +225,6 @@ const getMaybe = (t, key) => {
         { name: "Responsive Design", color: "orange-text-gradient" },
       ],
       image: ironmasterpage,
-    },
-    {
-      name: "Crypto Platform",
-      description: t("works.projects.work8.description"),
-      tags: [
-        { name: "HTML", color: "blue-text-gradient" },
-        { name: "CSS", color: "purple-text-gradient" },
-        { name: "JavaScript", color: "green-text-gradient" },
-        { name: "UI/UX", color: "orange-text-gradient" },
-      ],
-      image: cryptoplatform,
     },
   ];
   
