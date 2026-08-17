@@ -19,8 +19,9 @@ import {
   // bigo,
   nozzum,
   leadhunters,
-  coursera,
   // udemy,
+  coursera,
+  n8n,
   diagram,
   ecommerce,
   fitness,
@@ -126,6 +127,10 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "n8n",
+    icon: n8n,
   },
 ];
 
