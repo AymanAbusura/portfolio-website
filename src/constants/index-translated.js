@@ -5,7 +5,9 @@ import {
     shahin, 
     nozzum, 
     leadhunters, 
+    udemy,
     coursera, 
+    n8n,
     whitegen,
     telegramminiapp,
     telegrambot,
@@ -26,7 +28,6 @@ import {
     weather, 
     apple, 
     storeit,
-    udemy,
   } from "../assets";
 
 const getPoints = (t, job, section = "description") => {
@@ -112,39 +113,46 @@ const getMaybe = (t, key) => {
   
   export const getCertifications = (t) => [
     {
+      title: "n8n Foundations Professional Certificate",
+      company_name: "n8n",
+      icon: n8n,
+      iconBg: "#fff",
+      date: t("certification.certification1.date"),
+    },
+    {
       title: "The Complete Al Coding Course (2025) - Cursor, Claude Code",
       company_name: "Udemy",
       icon: udemy,
       iconBg: "#fff",
-      date: t("certification.certification1.date"),
+      date: t("certification.certification2.date"),
     },
     {
       title: "IBM Full Stack Software Developer Professional Certificate",
       company_name: "Coursera",
       icon: coursera,
       iconBg: "#fff",
-      date: t("certification.certification2.date"),
+      date: t("certification.certification3.date"),
     },
     {
       title: "Agile with Atlassian Jira",
       company_name: "Coursera",
       icon: coursera,
       iconBg: "#fff",
-      date: t("certification.certification3.date"),
+      date: t("certification.certification4.date"),
     },
     {
       title: "Meta React Native Specialization",
       company_name: "Coursera",
       icon: coursera,
       iconBg: "#fff",
-      date: t("certification.certification4.date"),
+      date: t("certification.certification5.date"),
     },
     {
       title: "Meta Front-End Developer Professional Certificate",
       company_name: "Coursera",
       icon: coursera,
       iconBg: "#fff",
-      date: t("certification.certification5.date"),
+      date: t("certification.certification6.date"),
     },
   ];
 

@@ -33,6 +33,7 @@ import nextjs from "./tech/nextjs.webp";
 import shahin from "./company/shahin.webp";
 import nozzum from "./company/nozzum.webp";
 import leadhunters from "./company/leadhunters.webp";
+import n8n from "./company/n8n.svg";
 import udemy from "./company/udemy.webp";
 import coursera from "./company/coursera.webp";
 
@@ -88,8 +89,9 @@ export {
   nozzum,
   shahin,
   leadhunters,
-  coursera,
   udemy,
+  coursera,
+  n8n,
   whitegen,
   telegramminiapp,
   telegrambot,

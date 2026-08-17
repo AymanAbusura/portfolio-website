@@ -112,26 +112,31 @@
         "header1": "WHAT I HAVE DONE SO FAR",
         "header2": "Certifications",
         "certification1": {
+            "title": "n8n Foundations Professional Certificate",
+            "company": "n8n",
+            "date": "Aug 2026"
+        },
+        "certification2": {
             "title": "The Complete Al Coding Course (2025) - Cursor, Claude Code",
             "company": "Udemy",
             "date": "Dec 2025"
         },
-        "certification2": {
+        "certification3": {
             "title": "IBM Full Stack Software Developer Professional Certificate",
             "company": "Coursera",
             "date": "Sep 2024"
         },
-        "certification3": {
+        "certification4": {
             "title": "Agile with Atlassian Jira",
             "company": "Coursera",
             "date": "Feb 2024"
         },
-        "certification4": {
+        "certification5": {
             "title": "Meta React Native Specialization",
             "company": "Coursera",
             "date": "Feb 2024"
         },
-        "certification5": {
+        "certification6": {
             "title": "Meta Front-End Developer Professional Certificate",
             "company": "Coursera",
             "date": "Aug 2023"

@@ -112,26 +112,31 @@
         "header1": "ЧТО Я СДЕЛАЛ НА ДАННЫЙ МОМЕНТ",
         "header2": "Сертификаты",
         "certification1": {
+            "title": "n8n Foundations Professional Certificate",
+            "company": "n8n",
+            "date": "Август 2026"
+        },
+        "certification2": {
             "title": "The Complete Al Coding Course (2025) - Cursor, Claude Code",
             "company": "Udemy",
             "date": "Декабрь 2025"
         },
-        "certification2": {
+        "certification3": {
             "title": "IBM Full Stack Software Developer Professional Certificate",
             "company": "Coursera",
             "date": "Сентябрь 2024"
         },
-        "certification3": {
+        "certification4": {
             "title": "Agile with Atlassian Jira",
             "company": "Coursera",
             "date": "Февраль 2024"
         },
-        "certification4": {
+        "certification5": {
             "title": "Meta React Native Specialization",
             "company": "Coursera",
             "date": "Февраль 2024"
         },
-        "certification5": {
+        "certification6": {
             "title": "Meta Front-End Developer Professional Certificate",
             "company": "Coursera",
             "date": "Август 2023"
