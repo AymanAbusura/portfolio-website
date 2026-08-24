@@ -36,6 +36,9 @@ import leadhunters from "./company/leadhunters.webp";
 import n8n from "./company/n8n.svg";
 import udemy from "./company/udemy.webp";
 import coursera from "./company/coursera.webp";
+import ibm from "./company/ibm.svg";
+import meta from "./company/meta.svg";
+import atlassian from "./company/atlassian.svg";
 
 import diagram from "./petprojects/diagram.webp";
 import aora from "./petprojects/aora.webp"
@@ -91,6 +94,9 @@ export {
   leadhunters,
   udemy,
   coursera,
+  ibm,
+  meta,
+  atlassian,
   n8n,
   whitegen,
   telegramminiapp,
