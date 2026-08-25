@@ -26,9 +26,15 @@ import nodejs from "./tech/nodejs.webp";
 import reactjs from "./tech/reactjs.webp";
 import redux from "./tech/redux.webp";
 import tailwind from "./tech/tailwind.webp";
-import typescript from "./tech/typescript.webp";
+import typescript from "./tech/typescript.svg";
 import threejs from "./tech/threejs.svg";
-import nextjs from "./tech/nextjs.webp";
+import nextjs from "./tech/nextjs.svg";
+import nginx from "./tech/nginx.svg";
+import postgresql from "./tech/postgresql.svg";
+import sqlite from "./tech/sqlite.svg";
+import redis from "./tech/redis.svg";
+import supabase from "./tech/supabase.svg";
+import claude from "./tech/claude.svg";
 
 import shahin from "./company/shahin.webp";
 import nozzum from "./company/nozzum.webp";
@@ -89,6 +95,12 @@ export {
   typescript,
   threejs,
   nextjs,
+  nginx,
+  postgresql,
+  sqlite,
+  redis,
+  supabase,
+  claude,
   nozzum,
   shahin,
   leadhunters,

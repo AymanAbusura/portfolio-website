@@ -63,9 +63,9 @@
                 "point13": "Консультировал коллег по вопросам адаптивной и RTL-вёрстки, оптимизации JavaScript-кода и обеспечения кроссбраузерной совместимости."
             },
             "kpis": {
-                "point1": "Разработано, адаптировано и протестировано более 40 000 лендингов и прелендингов за 4 года."
+                "point1": "Разработано, адаптировано и протестировано более 40 000 лендингов и прелендингов за 5 года."
             },
-            "stack": "HTML5, CSS3, JavaScript, React, Node.js, Express.js, PHP, Redis, BullMQ, SQLite, Playwright, Puppeteer, REST API"
+            "stack": "HTML5, CSS3, JavaScript, React, Node.js, Express.js, PHP, SQLite, Redis, BullMQ, JWT, Playwright, Puppeteer, REST API, SSE, Claude API, DeepL API, Git, Docker, Nginx"
         },
         "job2": {
             "title": "Java-разработчик",

@@ -12,9 +12,15 @@ import {
   nodejs,
   mongodb,
   nextjs,
+  nginx,
   git,
   figma,
   docker,
+  postgresql,
+  sqlite,
+  redis,
+  supabase,
+  claude,
   shahin,
   // bigo,
   nozzum,
@@ -93,6 +99,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -109,28 +119,48 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Next JS",
-    icon: nextjs,
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
+    name: "SQLite",
+    icon: sqlite,
+  },
+  {
+    name: "Redis",
+    icon: redis,
+  },
+  {
+    name: "Supabase",
+    icon: supabase,
   },
   {
     name: "Three JS",
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
+  },
+  {
+    name: "Nginx",
+    icon: nginx,
   },
   {
     name: "n8n",
     icon: n8n,
+  },
+  {
+    name: "Claude",
+    icon: claude,
   },
 ];
 

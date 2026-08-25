@@ -63,9 +63,9 @@
                 "point13": "Advised colleagues on responsive and RTL layout, JavaScript optimization, and cross-browser compatibility."
             },
             "kpis": {
-                "point1": "Built, adapted, and tested 40,000+ landing/pre-landing pages over 4 years."
+                "point1": "Built, adapted, and tested 40,000+ landing/pre-landing pages over 5 years."
             },
-            "stack": "HTML5, CSS3, JavaScript, React, Node.js, Express.js, PHP, Redis, BullMQ, SQLite, Playwright, Puppeteer, REST API"
+            "stack": "HTML5, CSS3, JavaScript, React, Node.js, Express.js, PHP, SQLite, Redis, BullMQ, JWT, Playwright, Puppeteer, REST API, SSE, Claude API, DeepL API, Git, Docker, Nginx"
         },
         "job2": {
             "title": "Java Developer",
