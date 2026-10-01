@@ -48,7 +48,7 @@
             },
             "date": "Jan 2022 - Present",
             "achievements": {
-                "point1": "Built an AI-powered white-paper generation service on top of Claude AI (Anthropic): a full-stack web app in React and Node.js/Express, using SQLite for storage and BullMQ + Redis for job queues.",
+                "point1": "Built an AI-powered landing page generation service using Claude AI (Anthropic): a full-stack web app in React and Node.js/Express, using Postgresql for storage and BullMQ + Redis for job queues.",
                 "point2": "Implemented automatic HTML page generation, a template library, and archive export for finished projects.",
                 "point3": "Built an automated translation service for landing/pre-landing pages via the DeepL API, parsing HTML structure and preserving layout after localization.",
                 "point4": "Designed and shipped several internal services and Telegram Mini Apps.",
@@ -112,33 +112,43 @@
         "header1": "WHAT I HAVE DONE SO FAR",
         "header2": "Certifications",
         "certification1": {
+            "title": "AI Agents with Model Context Protocol & Typescript Specialization",
+            "company": "Vanderbilt University",
+            "date": "Oct 2026"
+        },
+        "certification2": {
+            "title": "IBM RAG and Agentic AI Professional Certificate",
+            "company": "IBM",
+            "date": "Oct 2026"
+        },
+        "certification3": {
             "title": "n8n Foundations Professional Certificate",
             "company": "n8n",
             "date": "Aug 2026"
         },
-        "certification2": {
+        "certification4": {
             "title": "The Complete Al Coding Course (2025) - Cursor, Claude Code",
             "company": "Udemy",
             "date": "Dec 2025"
         },
-        "certification3": {
+        "certification5": {
             "title": "IBM Full Stack Software Developer Professional Certificate",
-            "company": "Coursera",
+            "company": "IBM",
             "date": "Sep 2024"
         },
-        "certification4": {
-            "title": "Agile with Atlassian Jira",
-            "company": "Coursera",
-            "date": "Feb 2024"
-        },
-        "certification5": {
-            "title": "Meta React Native Specialization",
-            "company": "Coursera",
-            "date": "Feb 2024"
-        },
         "certification6": {
+            "title": "Agile with Atlassian Jira",
+            "company": "Atlassian",
+            "date": "Feb 2024"
+        },
+        "certification7": {
+            "title": "Meta React Native Specialization",
+            "company": "Meta",
+            "date": "Feb 2024"
+        },
+        "certification8": {
             "title": "Meta Front-End Developer Professional Certificate",
-            "company": "Coursera",
+            "company": "Meta",
             "date": "Aug 2023"
         }
     },

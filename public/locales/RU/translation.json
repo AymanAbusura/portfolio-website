@@ -48,7 +48,7 @@
             },
             "date": "Январь 2022 - Настоящее время",
             "achievements": {
-                "point1": "Разработал AI-сервис генерации вайт-пейпера на базе Claude AI (Anthropic): full-stack веб-приложение на React и Node.js/Express с использованием SQLite для хранения данных, BullMQ и Redis для обработки очередей задач.",
+                "point1": "Разработал AI-сервис генерации вайт-пейпера на базе Claude AI (Anthropic): full-stack веб-приложение на React и Node.js/Express с использованием Postgresql для хранения данных, BullMQ и Redis для обработки очередей задач.",
                 "point2": "Реализовал автоматическую генерацию HTML-страниц, библиотеку шаблонов и экспорт готовых проектов архивом.",
                 "point3": "Разработал сервис автоматизированного перевода лендингов и прелендингов через DeepL API с обработкой HTML-структуры и сохранением корректной вёрстки после локализации.",
                 "point4": "Разработал и внедрил различные сервисы и Telegram Mini Apps.",
@@ -112,33 +112,43 @@
         "header1": "ЧТО Я СДЕЛАЛ НА ДАННЫЙ МОМЕНТ",
         "header2": "Сертификаты",
         "certification1": {
+            "title": "AI Agents with Model Context Protocol & Typescript Specialization",
+            "company": "Vanderbilt University",
+            "date": "Октябрь 2026"
+        },
+        "certification2": {
+            "title": "IBM RAG and Agentic AI Professional Certificate",
+            "company": "IBM",
+            "date": "Октябрь 2026"
+        },
+        "certification3": {
             "title": "n8n Foundations Professional Certificate",
             "company": "n8n",
             "date": "Август 2026"
         },
-        "certification2": {
+        "certification4": {
             "title": "The Complete Al Coding Course (2025) - Cursor, Claude Code",
             "company": "Udemy",
             "date": "Декабрь 2025"
         },
-        "certification3": {
+        "certification5": {
             "title": "IBM Full Stack Software Developer Professional Certificate",
-            "company": "Coursera",
+            "company": "IBM",
             "date": "Сентябрь 2024"
         },
-        "certification4": {
-            "title": "Agile with Atlassian Jira",
-            "company": "Coursera",
-            "date": "Февраль 2024"
-        },
-        "certification5": {
-            "title": "Meta React Native Specialization",
-            "company": "Coursera",
-            "date": "Февраль 2024"
-        },
         "certification6": {
+            "title": "Agile with Atlassian Jira",
+            "company": "Atlassian",
+            "date": "Февраль 2024"
+        },
+        "certification7": {
+            "title": "Meta React Native Specialization",
+            "company": "Meta",
+            "date": "Февраль 2024"
+        },
+        "certification8": {
             "title": "Meta Front-End Developer Professional Certificate",
-            "company": "Coursera",
+            "company": "Meta",
             "date": "Август 2023"
         }
     },

@@ -16,17 +16,18 @@ import habr from "./others/habr.svg"
 import telegram from "./others/telegram.svg"
 
 import css from "./tech/css.webp";
-import docker from "./tech/docker.webp";
-import figma from "./tech/figma.webp";
+import docker from "./tech/docker.svg";
+import figma from "./tech/figma.svg";
 import git from "./tech/git.webp";
 import html from "./tech/html.webp";
 import javascript from "./tech/javascript.webp";
-import mongodb from "./tech/mongodb.webp";
+import mongodb from "./tech/mongodb.svg";
 import nodejs from "./tech/nodejs.webp";
-import reactjs from "./tech/reactjs.webp";
+import reactjs from "./tech/reactjs.svg";
 import redux from "./tech/redux.webp";
-import tailwind from "./tech/tailwind.webp";
+import tailwind from "./tech/tailwind.svg";
 import typescript from "./tech/typescript.svg";
+import python from "./tech/python.svg";
 import threejs from "./tech/threejs.svg";
 import nextjs from "./tech/nextjs.svg";
 import nginx from "./tech/nginx.svg";
@@ -39,9 +40,10 @@ import claude from "./tech/claude.svg";
 import shahin from "./company/shahin.webp";
 import nozzum from "./company/nozzum.webp";
 import leadhunters from "./company/leadhunters.webp";
+
+import udemy from "./company/udemy.svg";
 import n8n from "./company/n8n.svg";
-import udemy from "./company/udemy.webp";
-import coursera from "./company/coursera.webp";
+import vanderbilt from "./company/vanderbilt.svg";
 import ibm from "./company/ibm.svg";
 import meta from "./company/meta.svg";
 import atlassian from "./company/atlassian.svg";
@@ -93,6 +95,7 @@ export {
   redux,
   tailwind,
   typescript,
+  python,
   threejs,
   nextjs,
   nginx,
@@ -105,7 +108,7 @@ export {
   shahin,
   leadhunters,
   udemy,
-  coursera,
+  vanderbilt,
   ibm,
   meta,
   atlassian,
