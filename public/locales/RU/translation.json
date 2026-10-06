@@ -112,41 +112,46 @@
         "header1": "ЧТО Я СДЕЛАЛ НА ДАННЫЙ МОМЕНТ",
         "header2": "Сертификаты",
         "certification1": {
-            "title": "AI Agents with Model Context Protocol & Typescript Specialization",
+            "title": "AI Agents in Typescript/Javascript Specialization",
             "company": "Vanderbilt University",
             "date": "Октябрь 2026"
         },
         "certification2": {
+            "title": "AI Agents with Model Context Protocol & Typescript Specialization",
+            "company": "Vanderbilt University",
+            "date": "Октябрь 2026"
+        },
+        "certification3": {
             "title": "IBM RAG and Agentic AI Professional Certificate",
             "company": "IBM",
             "date": "Октябрь 2026"
         },
-        "certification3": {
+        "certification4": {
             "title": "n8n Foundations Professional Certificate",
             "company": "n8n",
             "date": "Август 2026"
         },
-        "certification4": {
+        "certification5": {
             "title": "The Complete Al Coding Course (2025) - Cursor, Claude Code",
             "company": "Udemy",
             "date": "Декабрь 2025"
         },
-        "certification5": {
+        "certification6": {
             "title": "IBM Full Stack Software Developer Professional Certificate",
             "company": "IBM",
             "date": "Сентябрь 2024"
         },
-        "certification6": {
+        "certification7": {
             "title": "Agile with Atlassian Jira",
             "company": "Atlassian",
             "date": "Февраль 2024"
         },
-        "certification7": {
+        "certification8": {
             "title": "Meta React Native Specialization",
             "company": "Meta",
             "date": "Февраль 2024"
         },
-        "certification8": {
+        "certification9": {
             "title": "Meta Front-End Developer Professional Certificate",
             "company": "Meta",
             "date": "Август 2023"
