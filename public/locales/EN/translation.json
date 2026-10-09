@@ -48,7 +48,7 @@
             },
             "date": "Jan 2022 - Present",
             "achievements": {
-                "point1": "Built an AI-powered landing page generation service using Claude AI (Anthropic): a full-stack web app in React and Node.js/Express, using Postgresql for storage and BullMQ + Redis for job queues.",
+                "point1": "Built an AI-powered landing page generation service and ad creative analysis service using Claude AI (Anthropic): a full-stack web app in React and Node.js/Express, using Postgresql for storage and BullMQ + Redis for job queues.",
                 "point2": "Implemented automatic HTML page generation, a template library, and archive export for finished projects.",
                 "point3": "Built an automated translation service for landing/pre-landing pages via the DeepL API, parsing HTML structure and preserving layout after localization.",
                 "point4": "Designed and shipped several internal services and Telegram Mini Apps.",
@@ -112,46 +112,51 @@
         "header1": "WHAT I HAVE DONE SO FAR",
         "header2": "Certifications",
         "certification1": {
+            "title": "Google AI Professional Certificate",
+            "company": "Google",
+            "date": "Oct 2026"
+        },
+        "certification2": {
             "title": "AI Agents in Typescript/Javascript Specialization",
             "company": "Vanderbilt University",
             "date": "Oct 2026"
         },
-        "certification2": {
+        "certification3": {
             "title": "AI Agents with Model Context Protocol & Typescript Specialization",
             "company": "Vanderbilt University",
             "date": "Oct 2026"
         },
-        "certification3": {
+        "certification4": {
             "title": "IBM RAG and Agentic AI Professional Certificate",
             "company": "IBM",
             "date": "Oct 2026"
         },
-        "certification4": {
+        "certification5": {
             "title": "n8n Foundations Professional Certificate",
             "company": "n8n",
             "date": "Aug 2026"
         },
-        "certification5": {
+        "certification6": {
             "title": "The Complete Al Coding Course (2025) - Cursor, Claude Code",
             "company": "Udemy",
             "date": "Dec 2025"
         },
-        "certification6": {
+        "certification7": {
             "title": "IBM Full Stack Software Developer Professional Certificate",
             "company": "IBM",
             "date": "Sep 2024"
         },
-        "certification7": {
+        "certification8": {
             "title": "Agile with Atlassian Jira",
             "company": "Atlassian",
             "date": "Feb 2024"
         },
-        "certification8": {
+        "certification9": {
             "title": "Meta React Native Specialization",
             "company": "Meta",
             "date": "Feb 2024"
         },
-        "certification9": {
+        "certification10": {
             "title": "Meta Front-End Developer Professional Certificate",
             "company": "Meta",
             "date": "Aug 2023"
@@ -166,8 +171,8 @@
         "toggle_title2": "pet-projects",
         "projects": {
             "work1": {
-                "title": "Whitegen AI - White Paper Generator",
-                "description": "Built an AI-powered white paper generation platform using Claude AI (Anthropic). Developed a full-stack web application with React and Node.js/Express, using SQLite for data storage and BullMQ with Redis for background job processing and asynchronous document generation."
+                "title": "Whitegen AI - Landing page Generator",
+                "description": "Built an AI-powered landing page generation platform and ad creative analysis using Claude AI (Anthropic). Developed a full-stack web application with React and Node.js/Express, using Postgresql for data storage and BullMQ with Redis for background job processing and asynchronous document generation."
             },
             "work2": {
                 "title": "AI Landing Page Localization Service",

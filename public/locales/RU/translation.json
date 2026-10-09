@@ -48,7 +48,7 @@
             },
             "date": "Январь 2022 - Настоящее время",
             "achievements": {
-                "point1": "Разработал AI-сервис генерации вайт-пейпера на базе Claude AI (Anthropic): full-stack веб-приложение на React и Node.js/Express с использованием Postgresql для хранения данных, BullMQ и Redis для обработки очередей задач.",
+                "point1": "Разработал AI-сервис генерации лендингов и анализа рекламных креативов на базе Claude AI (Anthropic): full-stack веб-приложение на React и Node.js/Express с использованием Postgresql для хранения данных, BullMQ и Redis для обработки очередей задач.",
                 "point2": "Реализовал автоматическую генерацию HTML-страниц, библиотеку шаблонов и экспорт готовых проектов архивом.",
                 "point3": "Разработал сервис автоматизированного перевода лендингов и прелендингов через DeepL API с обработкой HTML-структуры и сохранением корректной вёрстки после локализации.",
                 "point4": "Разработал и внедрил различные сервисы и Telegram Mini Apps.",
@@ -112,46 +112,51 @@
         "header1": "ЧТО Я СДЕЛАЛ НА ДАННЫЙ МОМЕНТ",
         "header2": "Сертификаты",
         "certification1": {
+            "title": "Google AI Professional Certificate",
+            "company": "Google",
+            "date": "Oct 2026"
+        },
+        "certification2": {
             "title": "AI Agents in Typescript/Javascript Specialization",
             "company": "Vanderbilt University",
             "date": "Октябрь 2026"
         },
-        "certification2": {
+        "certification3": {
             "title": "AI Agents with Model Context Protocol & Typescript Specialization",
             "company": "Vanderbilt University",
             "date": "Октябрь 2026"
         },
-        "certification3": {
+        "certification4": {
             "title": "IBM RAG and Agentic AI Professional Certificate",
             "company": "IBM",
             "date": "Октябрь 2026"
         },
-        "certification4": {
+        "certification5": {
             "title": "n8n Foundations Professional Certificate",
             "company": "n8n",
             "date": "Август 2026"
         },
-        "certification5": {
+        "certification6": {
             "title": "The Complete Al Coding Course (2025) - Cursor, Claude Code",
             "company": "Udemy",
             "date": "Декабрь 2025"
         },
-        "certification6": {
+        "certification7": {
             "title": "IBM Full Stack Software Developer Professional Certificate",
             "company": "IBM",
             "date": "Сентябрь 2024"
         },
-        "certification7": {
+        "certification8": {
             "title": "Agile with Atlassian Jira",
             "company": "Atlassian",
             "date": "Февраль 2024"
         },
-        "certification8": {
+        "certification9": {
             "title": "Meta React Native Specialization",
             "company": "Meta",
             "date": "Февраль 2024"
         },
-        "certification9": {
+        "certification10": {
             "title": "Meta Front-End Developer Professional Certificate",
             "company": "Meta",
             "date": "Август 2023"
@@ -166,8 +171,8 @@
         "toggle_title2": "Пет-проекты",
         "projects": {
             "work1": {
-                "title": "Whitegen AI - Генератор White Paper",
-                "description": "Разработал AI-платформу для автоматической генерации White Paper на базе Claude AI (Anthropic). Создал полноценное full-stack приложение на React и Node.js/Express, используя SQLite для хранения данных и BullMQ вместе с Redis для фоновой обработки задач и асинхронной генерации документов."
+                "title": "Whitegen AI - Генератор лендингов",
+                "description": "Разработал AI-платформу для автоматической генерации лендингов и анализа рекламных креативов на базе Claude AI (Anthropic). Создал полноценное full-stack приложение на React и Node.js/Express, используя Postgresql для хранения данных и BullMQ вместе с Redis для фоновой обработки задач и асинхронной генерации документов."
             },
             "work2": {
                 "title": "AI-сервис локализации Landing Page",

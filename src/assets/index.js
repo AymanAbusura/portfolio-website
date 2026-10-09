@@ -47,6 +47,7 @@ import vanderbilt from "./company/vanderbilt.svg";
 import ibm from "./company/ibm.svg";
 import meta from "./company/meta.svg";
 import atlassian from "./company/atlassian.svg";
+import google from "./company/google.svg";
 
 import diagram from "./petprojects/diagram.webp";
 import aora from "./petprojects/aora.webp"
@@ -113,6 +114,7 @@ export {
   meta,
   atlassian,
   n8n,
+  google,
   whitegen,
   telegramminiapp,
   telegrambot,
