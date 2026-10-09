@@ -13,6 +13,7 @@ import {
     n8n,
     google,
     whitegen,
+    transcribeapp,
     telegramminiapp,
     telegrambot,
     puppeteerbot,
@@ -203,8 +204,21 @@ const getMaybe = (t, key) => {
       image: whitegen,
     },
     {
-      name: "AI Landing Page Localization Service",
+      name: "Audio Transcriber",
       description: t("works.projects.work2.description"),
+      tags: [
+        { name: "Next.js", color: "blue-text-gradient" },
+        { name: "Typescript", color: "green-text-gradient" },
+        { name: "Tailwind CSS", color: "purple-text-gradient" },
+        { name: "Python", color: "orange-text-gradient" },
+        { name: "Groq Whisper API", color: "pink-text-gradient" },
+        { name: "docx", color: "yellow-text-gradient" },
+      ],
+      image: transcribeapp,
+    },
+    {
+      name: "AI Landing Page Localization Service",
+      description: t("works.projects.work3.description"),
       tags: [
         { name: "Node.js", color: "green-text-gradient" },
         { name: "DeepL API", color: "blue-text-gradient" },
@@ -215,7 +229,7 @@ const getMaybe = (t, key) => {
     },
     {
       name: "Telegram Mini App",
-      description: t("works.projects.work3.description"),
+      description: t("works.projects.work4.description"),
       tags: [
         { name: "React", color: "blue-text-gradient" },
         { name: "Telegram API", color: "purple-text-gradient" },
@@ -226,7 +240,7 @@ const getMaybe = (t, key) => {
     },
     {
       name: "Telegram Automation Bot",
-      description: t("works.projects.work4.description"),
+      description: t("works.projects.work5.description"),
       tags: [
         { name: "Node.js", color: "green-text-gradient" },
         { name: "Telegram Bot API", color: "blue-text-gradient" },
@@ -236,7 +250,7 @@ const getMaybe = (t, key) => {
     },
     {
       name: "Puppeteer Browser Automation Bot",
-      description: t("works.projects.work5.description"),
+      description: t("works.projects.work6.description"),
       tags: [
         { name: "Node.js", color: "green-text-gradient" },
         { name: "Puppeteer", color: "blue-text-gradient" },
@@ -247,7 +261,7 @@ const getMaybe = (t, key) => {
     },
     {
       name: "DaDa Group Platform",
-      description: t("works.projects.work6.description"),
+      description: t("works.projects.work7.description"),
       tags: [
         { name: "React", color: "blue-text-gradient" },
         { name: "Supabase", color: "green-text-gradient" },
@@ -269,7 +283,7 @@ const getMaybe = (t, key) => {
     },
     {
       name: "IronMaster Website",
-      description: t("works.projects.work7.description"),
+      description: t("works.projects.work9.description"),
       tags: [
         { name: "React", color: "blue-text-gradient" },
         { name: "CSS", color: "purple-text-gradient" },
