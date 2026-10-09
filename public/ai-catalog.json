@@ -1,0 +1,44 @@
+
+{
+  "name": "Ayman Abusura",
+  "description": "Fullstack Developer specializing in React, Node.js, scalable web applications, API integrations, AI-powered tools, and Telegram bots and Mini Apps.",
+  "url": "https://aymanabusura.vercel.app/",
+  "documentation": "https://aymanabusura.vercel.app/llms.txt",
+  "resources": [
+    {
+      "type": "website",
+      "name": "Portfolio",
+      "url": "https://aymanabusura.vercel.app/"
+    },
+    {
+      "type": "documentation",
+      "name": "LLM Instructions",
+      "url": "https://aymanabusura.vercel.app/llms.txt"
+    },
+    {
+      "type": "sitemap",
+      "name": "Sitemap",
+      "url": "https://aymanabusura.vercel.app/sitemap.xml"
+    },
+    {
+      "type": "source-code",
+      "name": "GitHub",
+      "url": "https://github.com/AymanAbusura"
+    },
+    {
+      "type": "professional-profile",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/aymanAbusura"
+    },
+    {
+      "type": "contact",
+      "name": "Telegram",
+      "url": "https://t.me/ayman_abusura96"
+    },
+    {
+      "type": "professional-profile",
+      "name": "Habr Career",
+      "url": "https://career.habr.com/aymanabusura"
+    }
+  ]
+}

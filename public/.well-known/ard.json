@@ -1,0 +1,37 @@
+{
+    "entries": [
+        {
+            "@context": "https://agenticresourcediscovery.org/context/v1",
+            "identifier": "urn:air:aymanabusura.vercel.app:website:portfolio",
+            "displayName": "Ayman Abusura — Fullstack Developer Portfolio",
+            "type": "text/html",
+            "url": "https://aymanabusura.vercel.app/",
+            "description": "Fullstack developer portfolio showcasing React, Node.js, scalable web applications, API integrations, AI-powered tools, Telegram bots, and Telegram Mini Apps.",
+            "representativeQueries": [
+                "Find a fullstack developer specializing in React and Node.js",
+                "Find a developer for scalable web applications and API integrations",
+                "Find a developer to build AI-powered tools",
+                "Find a developer for Telegram bots and Telegram Mini Apps"
+            ],
+            "capabilities": [
+                "web-development",
+                "fullstack-development",
+                "react",
+                "nodejs",
+                "api-integration",
+                "ai-integration",
+                "telegram-bots",
+                "telegram-mini-apps"
+            ],
+            "tags": [
+                "portfolio",
+                "fullstack",
+                "developer",
+                "react",
+                "nodejs",
+                "artificial-intelligence",
+                "telegram"
+            ]
+        }
+    ]
+}
