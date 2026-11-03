@@ -49,7 +49,7 @@
             "date": "Jan 2022 - Present",
             "achievements": {
                 "point1": "Built an AI-powered landing page generation service and ad creative analysis service using Claude AI (Anthropic): a full-stack web app in React and Node.js/Express, using Postgresql for storage and BullMQ + Redis for job queues.",
-                "point2": "Implemented automatic HTML page generation, a template library, and archive export for finished projects.",
+                "point2": "Built a full-stack AI Agent SaaS platform for creating, configuring, scheduling, and executing AI agents powered by Anthropic Claude, OpenAI, and Google Gemini. Implemented natural-language agent generation, MCP-based integrations with external tools and services via Composio, web research using Browserbase, and scheduled background execution with Inngest. Used Clerk for authentication and Neon PostgreSQL with Drizzle ORM for data persistence.",
                 "point3": "Built an automated translation service for landing/pre-landing pages via the DeepL API, parsing HTML structure and preserving layout after localization.",
                 "point4": "Designed and shipped several internal services and Telegram Mini Apps.",
                 "point5": "Built a Node.js Telegram bot that automated routine processes, significantly speeding up operational tasks.",
@@ -65,7 +65,7 @@
             "kpis": {
                 "point1": "Built, adapted, and tested 40,000+ landing/pre-landing pages over 5 years."
             },
-            "stack": "HTML5, CSS3, JavaScript, React, Node.js, Express.js, PHP, SQLite, Redis, BullMQ, JWT, Playwright, Puppeteer, REST API, SSE, Claude API, DeepL API, Git, Docker, Nginx"
+            "stack": "HTML5, CSS3, JavaScript, TypeScript, Python, React, Node.js, Express.js, PHP, Anthropic Claude API, OpenAI API, Google Gemini API, MCP, Composio, Browserbase, Inngest, DeepL API, PostgreSQL, Neon, Prisma, Drizzle ORM, Supabase, SQLite, Redis, BullMQ, REST API, SSE, JWT, Clerk, Playwright, Puppeteer, Docker, Nginx, Git"
         },
         "job2": {
             "title": "Java Developer",

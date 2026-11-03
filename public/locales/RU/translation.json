@@ -49,7 +49,7 @@
             "date": "Январь 2022 - Настоящее время",
             "achievements": {
                 "point1": "Разработал AI-сервис генерации лендингов и анализа рекламных креативов на базе Claude AI (Anthropic): full-stack веб-приложение на React и Node.js/Express с использованием Postgresql для хранения данных, BullMQ и Redis для обработки очередей задач.",
-                "point2": "Реализовал автоматическую генерацию HTML-страниц, библиотеку шаблонов и экспорт готовых проектов архивом.",
+                "point2": "Разработал full-stack AI Agent SaaS-платформу для создания, настройки, планирования и запуска AI-агентов с поддержкой Anthropic Claude, OpenAI и Google Gemini. Реализовал генерацию конфигураций агентов на основе текстовых запросов, интеграцию внешних инструментов и сервисов через протокол MCP с использованием Composio, веб-исследование через Browserbase и автоматизированные фоновые запуски по расписанию с помощью Inngest. Реализовал аутентификацию через Clerk и хранение данных в Neon PostgreSQL с использованием Drizzle ORM.",
                 "point3": "Разработал сервис автоматизированного перевода лендингов и прелендингов через DeepL API с обработкой HTML-структуры и сохранением корректной вёрстки после локализации.",
                 "point4": "Разработал и внедрил различные сервисы и Telegram Mini Apps.",
                 "point5": "Разработал Telegram-бота на Node.js для автоматизации рутинных процессов, что позволило значительно ускорить выполнение операционных задач.",
@@ -65,7 +65,7 @@
             "kpis": {
                 "point1": "Разработано, адаптировано и протестировано более 40 000 лендингов и прелендингов за 5 года."
             },
-            "stack": "HTML5, CSS3, JavaScript, React, Node.js, Express.js, PHP, SQLite, Redis, BullMQ, JWT, Playwright, Puppeteer, REST API, SSE, Claude API, DeepL API, Git, Docker, Nginx"
+            "stack": "HTML5, CSS3, JavaScript, TypeScript, Python, React, Node.js, Express.js, PHP, Anthropic Claude API, OpenAI API, Google Gemini API, MCP, Composio, Browserbase, Inngest, DeepL API, PostgreSQL, Neon, Prisma, Drizzle ORM, Supabase, SQLite, Redis, BullMQ, REST API, SSE, JWT, Clerk, Playwright, Puppeteer, Docker, Nginx, Git"
         },
         "job2": {
             "title": "Java-разработчик",
