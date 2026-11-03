@@ -211,6 +211,7 @@ const getMaybe = (t, key) => {
         { name: "Next.js", color: "blue-text-gradient" },
         { name: "TypeScript", color: "green-text-gradient" },
         { name: "PostgreSQL", color: "purple-text-gradient" },
+        { name: "MCP", color: "green-text-gradient" },
         { name: "Anthropic", color: "orange-text-gradient" },
         { name: "OpenAI", color: "pink-text-gradient" },
         { name: "Gemini", color: "yellow-text-gradient" },
