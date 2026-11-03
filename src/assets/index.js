@@ -63,6 +63,7 @@ import apple from "./petprojects/apple.webp";
 import storeit from "./petprojects/storeit.webp";
 
 import whitegen from "./projects/whitegen.webp";
+import aiagentplatform from "./projects/aiagentplatform.webp";
 import transcribeapp from "./projects/transcribeapp.webp";
 import telegramminiapp from "./projects/telegramminiapp.webp";
 import telegrambot from "./projects/telegrambot.webp";
@@ -117,6 +118,7 @@ export {
   n8n,
   google,
   whitegen,
+  aiagentplatform,
   transcribeapp,
   telegramminiapp,
   telegrambot,
